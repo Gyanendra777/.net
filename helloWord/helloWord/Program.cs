@@ -10,22 +10,23 @@ namespace helloWord
     {
         private static void Main(string[] args)
         {
-           first a = new first();
+           first a = new first(23);
             a.first2();
             Console.ReadKey();
         }       
     }
     
-    //Default Constructor 
+    //parameterixed Constructor 
     class first
     {
-        public first()
+        private int passingmark;
+        public first(int marks)
         {
-            Console.WriteLine("hello default chlega werd111");
+            passingmark = marks;
         }
         public void first2()
         {
-            Console.WriteLine("hello werd222");
+            Console.WriteLine( " parameterixed constructor ====="+ passingmark);
         }
     }
 }
