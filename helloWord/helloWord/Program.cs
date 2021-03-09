@@ -12,12 +12,28 @@ namespace helloWord
         {
             
 
-            //string studentName = "abc";
-           // int studentName = 12;
-           // float marks 30.34;
+            string studentName;
+            int studentAge;
+            float marks;
             //char section = 'a';
            // bool stream = trun;
-            Console.WriteLine("hello worde 1111111");
+            Console.Write("your name please:");
+            studentName = Console.ReadLine();
+            Console.WriteLine("-----");
+            Console.Write("Your age please:");
+            studentAge = int.Parse(Console.ReadLine());
+            Console.WriteLine("-----");
+            Console.Write("Your marks please:");
+            marks = float.Parse(Console.ReadLine());
+            Console.WriteLine("-----");
+            Console.WriteLine("type one ");
+            Console.WriteLine("name--- (" + studentName + ")  age---(" + studentAge + ") mark---("+ marks);
+            Console.WriteLine("type two ");
+            Console.WriteLine("Name---("+ studentName);
+            Console.WriteLine("age----("+ studentAge);
+            Console.WriteLine("marks---(" + marks);
+            Console.WriteLine("type three ");
+            Console.WriteLine("name-- {0}  //age-- {1} //mark-- {2}" , studentName, studentAge, marks);
             Console.Read();
         }
     }
