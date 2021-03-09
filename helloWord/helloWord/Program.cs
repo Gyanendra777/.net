@@ -10,26 +10,22 @@ namespace helloWord
     {
         private static void Main(string[] args)
         {
-            
-
-          
-            int age;
-           
-            
-            Console.Write("plese inter your age :");
-            age = int.Parse(Console.ReadLine());
-            if (age >= 18)
-            {
-                Console.Write("you can vot");
-            }
-            else
-            {
-                Console.Write("you connot vot");
-            }
-            Console.WriteLine();
-            Console.Write("press any key to exit");
+           first a = new first();
+            a.first2();
             Console.ReadKey();
-       
+        }       
+    }
+    
+    //Default Constructor 
+    class first
+    {
+        public first()
+        {
+            Console.WriteLine("hello default chlega werd111");
+        }
+        public void first2()
+        {
+            Console.WriteLine("hello werd222");
         }
     }
 }
