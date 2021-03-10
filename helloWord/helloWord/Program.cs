@@ -10,7 +10,14 @@ namespace helloWord
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("hello worde");
+            
+
+            //string studentName = "abc";
+           // int studentName = 12;
+           // float marks 30.34;
+            //char section = 'a';
+           // bool stream = trun;
+            Console.WriteLine("hello worde 1111111");
             Console.Read();
         }
     }
